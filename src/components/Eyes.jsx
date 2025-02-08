@@ -20,7 +20,7 @@ const Eyes = () => {
     },[rotate])
   return (
     <div className='z-[100] eyes w-full h-screen overflow-hidden '>
-        <div data-scroll data-scroll-section data-scroll-speed="-.7" className='flex justify-center items-center w-full h-full bg-center bg-cover bg-[url("../../public/eyes_base_Image.jpg")] '>
+        <div data-scroll data-scroll-section data-scroll-speed="-.7" className='flex justify-center items-center w-full h-full bg-center bg-cover bg-[url("/eyes_base_Image.jpg")] '>
             <div className='flex gap-10 '>
                 <div className=' flex items-center justify-center w-[15vw] h-[20vw] rounded-full bg-zinc-300'>
                     <div className=' relative w-2/3 h-2/3 rounded-full bg-zinc-900'>
